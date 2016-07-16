@@ -3,7 +3,7 @@
 $string = "123456789987654321";
 $search = "123";
 
-echo strpos($string, $search); // will output 0, the first position that is found the string
+var_dump(strpos($string, $search)); // will output 0, the first position that is found the string
 echo "<br>";
 //strstr();
 //is slower that strpos()

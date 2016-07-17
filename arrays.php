@@ -11,9 +11,9 @@ echo '<br>';
 var_dump(is_array($b));
 echo '<br>';
 var_dump(array_key_exists('a',$a));//retorna falso se não existir a chave
-$c = [1 => 'a',
-	  2 => 'b',
-	  3 => 'c'
+$c = ['a' => 'a',
+	  'b' => 'b',
+	  'c' => 'c'
 	 ];
 
 echo "<br>----------array_flip()<br>";
